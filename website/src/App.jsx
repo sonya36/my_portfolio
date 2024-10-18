@@ -5,12 +5,12 @@ import Home from './home/Home'
 import './index.css';
 const App = () => {
   return (
-      <div>
+      <>
         <Header />
         <main className ='main'>
         <Home />
         </main>
-      </div>
+      </>
 
   );
 };
