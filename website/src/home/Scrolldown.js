@@ -43,6 +43,8 @@ button--flex">
                         }}
                     ></path>
                 </svg>
+                <span className='home_scroll-name'>Scroll Down</span>
+                <i class = "uil uil-arrow-down home_scroll-arrow"></i>
             </a>
         </div>
 
