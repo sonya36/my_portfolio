@@ -7,13 +7,13 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --hue: 210; /* Color hue for a blue tone */
-  --sat: 50%; /* Saturation for vibrancy */
-  --title-color: hsl(var(--hue), var(--sat), 20%); /* Darker shade of blue */
-  --title-color-dark: hsl(var(--hue), var(--sat), 10%); /* Even darker shade */
-  --text-color: hsl(var(--hue), var(--sat), 40%); /* A lighter blue for general text */
-  --body-color: hsl(var(--hue), var(--sat), 95%); /* Very light blue for background */
-  --container-color: #FFFFFF; /* Pure white for containers */
+  --hue: 0;
+  --sat: 0%;
+  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --container-color: #fff;
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -48,19 +48,6 @@
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
-}
-
-/* Responsive typography */
-@media screen and (max-width: 992px) {
-  :root {
-    --big-font-size: 2.75rem;
-    --h1-font-size: 1.5rem;
-    --h2-font-size: 1.25rem;
-    --h3-font-size: 1rem;
-    --normal-font-size: 0.938rem;
-    --small-font-size: 0.813rem;
-    --smaller-font-size: 0.75rem;
-  }
 }
 
 /* Responsive typography */
