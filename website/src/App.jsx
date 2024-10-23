@@ -2,6 +2,7 @@
 import React from 'react'
 import Header from './header/Header' 
 import Home from './home/Home'
+import About from './about/About'
 import './index.css';
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
         <Header />
         <main className ='main'>
         <Home />
+        <About />
         </main>
       </>
 
