@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5f0059ab.css",
+    "main.js": "/static/js/main.ecdb432e.js",
+    "static/media/about.jpg": "/static/media/about.601c0efeaceb194c26dd.jpg",
+    "static/media/profile.jpg": "/static/media/profile.601c0efeaceb194c26dd.jpg",
+    "static/media/Soniya-Cv.pdf": "/static/media/Soniya-Cv.ffcbbd5b83309cd9cec8.pdf",
+    "index.html": "/index.html",
+    "main.5f0059ab.css.map": "/static/css/main.5f0059ab.css.map",
+    "main.ecdb432e.js.map": "/static/js/main.ecdb432e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f0059ab.css",
+    "static/js/main.ecdb432e.js"
+  ]
+}
