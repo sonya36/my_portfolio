@@ -4,6 +4,7 @@ import Header from './header/Header'
 import Home from './home/Home'
 import About from './about/About'
 import Skills from './skills/ Skills'
+import Qualification from './qualification/Qualification'
 import './index.css';
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Home />
         <About />
         <Skills />
+        <Qualification />
         </main>
       </>
 

@@ -13,7 +13,7 @@ const About = () => {
             <div className="about_container container grid">
                 <img src={AboutImg} alt="" className="about_img" />
                 <div className="about_data"> <Info />
-                    <p className="about_description">Frontend developer, I create web pages with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out.</p>
+                    <p className="about_description"> A dedicated Computer Engineering student and a DevOps enthusiast with hands-on experience in cloud computing on AWS, Docker, and web development. Currently pursuing my Bachelor in Engineering at Kathmandu University, I am passionate about building efficient, scalable solutions and bridging the gap between development and operations to streamline workflows. My journey so far includes developing a range of projects—from a fully functional e-learning platform using ReactJS to setting up intricate server environments with Ansible and Nginx for load balancing. I am constantly honing my skills and diving deeper into cloud integration, automation, and deployment strategies to prepare myself for a career in DevOps.</p>
                     <a download="" href={CV} className="button button--flex">Download CV
                         <svg
                             className="button__icon"
